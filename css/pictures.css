@@ -1,0 +1,83 @@
+.open{
+  display: block;
+}
+
+.closed{
+  display: none;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #668586;
+  border: none;
+  color: #eaf2ef;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: #d1ccdc; /* Green */
+  color: #253031;
+}
+
+.results {
+  margin: auto;
+  width: 300px;
+  border: 1px solid black;
+}
+
+#buttons {
+  margin: 0 auto;
+  width: 160px;
+}
+
+.pic_bucket {
+  margin: auto;
+  width: 80%;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: top;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 700px){
+
+  .button{
+    padding: 10px 32px;
+  }
+  #buttons {
+    margin: 0 auto;
+    width: 205px;
+  }
+  img {
+    width: 45%;
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 1100px){
+
+  .button{
+    padding: 10px 32px;
+  }
+
+  #buttons {
+    margin: 0 auto;
+    width: 205px;
+  }
+
+  img {
+    width: 30%;
+    margin: 10px;
+  }
+}
