@@ -15,11 +15,12 @@
   list-style-type: none;
 }
 
-table{
+/* table{
   width: 90%;
   max-width: 940px;
   margin:auto;
-}
+  border-bottom: 1px solid #253031;
+} */
 
 .col2{
   min-width: 100px;
@@ -29,6 +30,12 @@ img{
    border-radius: 25%;
    width: 200px;
    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#roster_cont{
+  width: 90%;
+  max-width: 940px;
+  margin: auto;
 }
 
 @media screen and (min-width: 700px){
