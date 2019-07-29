@@ -160,6 +160,16 @@ nav.menu {
   float:none;
 }
 
+/* #active {
+  text-decoration: underline;
+} */
+
+#active {
+  text-shadow: 0 0 15px #e1faf7;
+  text-decoration: underline;
+}
+
+
 @media screen and (min-width: 700px){
   .admin {
     float:right;
