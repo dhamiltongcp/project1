@@ -38,6 +38,10 @@ table {
   width: 80%;
 }
 
+.test {
+  display: inline;
+}
+
 .section {
   background-color: #668586;
   color: #eaf2ef;
