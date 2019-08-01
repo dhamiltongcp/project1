@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/pictures.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="icon" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/1e0f95045e.js"></script>
     <script src="js/yr_select.js"></script>
     <script src="js/menu.js"></script>
@@ -38,7 +40,156 @@
         <button class="button" type="button" onclick="fun_b()">2018</button>
       </div>
 
-      <div id="2019">
+<!-- START OF LIGHTBOX HTML -->
+
+<!-- *************** 2019 *********************-->
+
+<div id="2019">
+  <h2>2019 Photos</h2>
+  <div class="row">
+    <div class="column2019">
+      <img src="images/2019/1.jpg" style="width:100%" onclick="openModal(2019);currentSlide(20191)" class="hover-shadow cursor">
+    </div>
+    <div class="column2019">
+      <img src="images/2019/2.jpg" style="width:100%" onclick="openModal(2019);currentSlide(20192)" class="hover-shadow cursor">
+    </div>
+    <div class="column2019">
+      <img src="images/2019/3.jpg" style="width:100%" onclick="openModal(2019);currentSlide(20193)" class="hover-shadow cursor">
+    </div>
+    <div class="column2019">
+      <img src="images/2019/4.jpg" style="width:100%" onclick="openModal(2019);currentSlide(20194)" class="hover-shadow cursor">
+    </div>
+  </div>
+</div>
+
+<div id="myModal2019" class="modal">
+  <span class="close cursor" onclick="closeModal(2019)">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides2019">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/2019/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2019">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/2019/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2019">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/2019/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2019">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/2019/4.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 2019)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 2019)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption2019"></p>
+    </div>
+
+    <div class="column2019_modal">
+      <img class="demo2019 cursor" src="images/2019/1.jpg" style="width:100%" onclick="currentSlide(20191)" alt="Start/Finish Line">
+    </div>
+    <div class="column2019_modal">
+      <img class="demo2019 cursor" src="images/2019/2.jpg" style="width:100%" onclick="currentSlide(20192)" alt="Freezy Eating Contest">
+    </div>
+    <div class="column2019_modal">
+      <img class="demo2019 cursor" src="images/2019/3.jpg" style="width:100%" onclick="currentSlide(20193)" alt="After Muddy Training Ride">
+    </div>
+    <div class="column2019_modal">
+      <img class="demo2019 cursor" src="images/2019/4.jpg" style="width:100%" onclick="currentSlide(20194)" alt="Relaxing Between Laps">
+    </div>
+  </div>
+</div>
+
+<!-- *************** 2018 *********************-->
+
+<div id="2018">
+  <h2>2018 Photos</h2>
+  <div class="row">
+    <div class="column2018">
+      <img src="images/2018/1.jpg" style="width:100%" onclick="openModal(2018);currentSlide(20181)" class="hover-shadow cursor">
+    </div>
+    <div class="column2018">
+      <img src="images/2018/2.jpg" style="width:100%" onclick="openModal(2018);currentSlide(20182)" class="hover-shadow cursor">
+    </div>
+    <div class="column2018">
+      <img src="images/2018/3.jpg" style="width:100%" onclick="openModal(2018);currentSlide(20183)" class="hover-shadow cursor">
+    </div>
+    <div class="column2018">
+      <img src="images/2018/4.jpg" style="width:100%" onclick="openModal(2018);currentSlide(20184)" class="hover-shadow cursor">
+    </div>
+    <div class="column2018">
+      <img src="images/2018/5.jpg" style="width:100%" onclick="openModal(2018);currentSlide(20185)" class="hover-shadow cursor">
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal2018" class="modal">
+  <span class="close cursor" onclick="closeModal(2018)">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides2018">
+      <div class="numbertext">1 / 5</div>
+      <img src="images/2018/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2018">
+      <div class="numbertext">2 / 5</div>
+      <img src="images/2018/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2018">
+      <div class="numbertext">3 / 5</div>
+      <img src="images/2018/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2018">
+      <div class="numbertext">4 / 5</div>
+      <img src="images/2018/4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2018">
+      <div class="numbertext">5 / 5</div>
+      <img src="images/2018/5.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 2018)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 2018)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption2018"></p>
+    </div>
+
+    <div class="column2018_modal">
+      <img class="demo2018 cursor" src="images/2018/1.jpg" style="width:100%" onclick="currentSlide(20181)" alt="Entering Finish Area">
+    </div>
+    <div class="column2018_modal">
+      <img class="demo2018 cursor" src="images/2018/2.jpg" style="width:100%" onclick="currentSlide(20182)" alt="2018 Course Map">
+    </div>
+    <div class="column2018_modal">
+      <img class="demo2018 cursor" src="images/2018/3.jpg" style="width:100%" onclick="currentSlide(20183)" alt="Riders Climbing">
+    </div>
+    <div class="column2018_modal">
+      <img class="demo2018 cursor" src="images/2018/4.jpg" style="width:100%" onclick="currentSlide(20184)" alt="Rider Downhill">
+    </div>
+    <div class="column2018_modal">
+      <img class="demo2018 cursor" src="images/2018/5.jpg" style="width:100%" onclick="currentSlide(20185)" alt="Rider Finishing Lap">
+    </div>
+  </div>
+</div>
+
+<!-- END OF LIGHTBOX HTML -->
+
+
+      <!-- <div id="2019">
         <h2>2019 Photos</h2>
         <div class="pic_bucket">
           <img src="images/2019/1.jpg" alt="2019 Start Finish">
@@ -58,7 +209,7 @@
           <img src="images/2018/5.jpg" alt="2018 Rider Downhill">
         </div>
       </div>
-    </main>
+    </main> -->
 
 </div>
 
@@ -67,6 +218,8 @@
         <a class="foot_link" href="https://www.chicoracing.com/24hour" target="_blank">24 Hour Race Website</a>
       </div>
     </footer>
+
+    <script src="js/lightbox.js"></script>
 
   </body>
 
