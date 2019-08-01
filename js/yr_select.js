@@ -1,9 +1,9 @@
 function fun_a() {
-  document.getElementById("2019").className="open";
-  document.getElementById("2018").className="closed";
+  document.getElementById("2019").style.display = "block";
+  document.getElementById("2018").style.display = "none";
 }
 
 function fun_b() {
-  document.getElementById("2019").className="closed";
-  document.getElementById("2018").className="open";
+  document.getElementById("2019").style.display = "none";
+  document.getElementById("2018").style.display = "block";
 }

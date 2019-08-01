@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/roster.css">
+    <link rel="icon" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/1e0f95045e.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/roster.js"></script>
     <title>Looping Lappers - Roster</title>
   </head>
 
@@ -32,96 +34,96 @@
     <main>
         <h1>Team Roster</h1>
         <div id="roster_cont">
-        <table>
-          <tr>
-            <td class="pic"><img src="images/DHamilton.jpg" alt="D Hamilton"></td>
-            <td class="col2">
+          <div class="pic pic_holder">
+            <img src="images/DHamilton.jpg" onclick="openClose('d_ham')" alt="D Hamilton">
+            <div class="centered">David Hamilton</div>
+          </div>
+
+            <div class="d_ham col2">
               <ul class="roster_text_label">
                 <li>Name:</li>
                 <li>Phone:</li>
                 <li>E-mail:</li>
                 <li>Night Lap:</li>
               </ul>
-            </td>
-            <td class="col3">
+            </div>
+            <div class="d_ham col3">
               <ul class="roster_text_content">
                 <li>David Hamilton</li>
                 <li>555-123-4567</li>
                 <li>dave@email.com</li>
                 <li>YES</li>
               </ul>
-            </td>
-          </tr>
-        </table>
-        <hr>
+            </div>
+          
+          <hr>
 
-        <table>
-          <tr>
-            <td class="pic"><img src="images/BHamilton.jpg" alt="B Hamilton"></td>
-            <td>
-              <ul class="roster_text_label">
-                <li>Name:</li>
-                <li>Phone:</li>
-                <li>E-mail:</li>
-                <li>Night Lap:</li>
-              </ul>
-            </td>
-            <td>
-              <ul class="roster_text_content">
-                <li>Bob Hamilton</li>
-                <li>555-123-4567</li>
-                <li>bob@email.com</li>
-                <li>YES</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-        <hr>
+          <div class="pic pic_holder">
+            <img src="images/BHamilton.jpg" onclick="openClose('b_ham')" alt="B Hamilton">
+            <div class="centered">Bob Hamilton</div>
+          </div>
+          <div class="b_ham col2">
+            <ul class="roster_text_label">
+              <li>Name:</li>
+              <li>Phone:</li>
+              <li>E-mail:</li>
+              <li>Night Lap:</li>
+            </ul>
+          </div>
+          <div class="b_ham col3">
+            <ul class="roster_text_content">
+              <li>Bob Hamilton</li>
+              <li>555-123-4567</li>
+              <li>bob@email.com</li>
+              <li>YES</li>
+            </ul>
+          </div>
 
-        <table>
-          <tr>
-            <td class="pic"><img src="images/CHamilton.jpg" alt="C Hamilton"></td>
-            <td>
-              <ul class="roster_text_label">
-                <li>Name:</li>
-                <li>Phone:</li>
-                <li>E-mail:</li>
-                <li>Night Lap:</li>
-              </ul>
-            </td>
-            <td>
-              <ul class="roster_text_content">
-                <li>Charles Hamilton</li>
-                <li>555-123-4567</li>
-                <li>charles@email.com</li>
-                <li>YES</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-        <hr>
+          <hr>
 
-        <table>
-          <tr>
-            <td class="pic"><img src="images/SHamilton.jpg" alt="S Hamilton"></td>
-            <td>
-              <ul class="roster_text_label">
-                <li>Name:</li>
-                <li>Phone:</li>
-                <li>E-mail:</li>
-                <li>Night Lap:</li>
-              </ul>
-            </td>
-            <td>
-              <ul class="roster_text_content">
-                <li>Sven Hamilton</li>
-                <li>555-123-4567</li>
-                <li>sven@email.com</li>
-                <li>YES</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
+          <div class="pic pic_holder">
+            <img src="images/CHamilton.jpg" onclick="openClose('c_ham')" alt="C Hamilton">
+            <div class="centered">Charles Hamilton</div>
+          </div>
+          <div class="c_ham col2">
+            <ul class="roster_text_label">
+              <li>Name:</li>
+              <li>Phone:</li>
+              <li>E-mail:</li>
+              <li>Night Lap:</li>
+            </ul>
+          </div>
+          <div class="c_ham col3">
+            <ul class="roster_text_content">
+              <li>Charles Hamilton</li>
+              <li>555-123-4567</li>
+              <li>charles@email.com</li>
+              <li>YES</li>
+            </ul>
+          </div>
+
+          <hr>
+
+          <div class="pic pic_holder">
+              <img src="images/SHamilton.jpg" onclick="openClose('s_ham')" alt="S Hamilton"></td>
+              <div class="centered">Sven Hamilton</div>
+          </div>
+          <div class="s_ham col2">
+            <ul class="roster_text_label">
+              <li>Name:</li>
+              <li>Phone:</li>
+              <li>E-mail:</li>
+              <li>Night Lap:</li>
+            </ul>
+          </div>
+          <div class="s_ham col3">
+            <ul class="roster_text_content">
+              <li>Sven Hamilton</li>
+              <li>555-123-4567</li>
+              <li>sven@email.com</li>
+              <li>YES</li>
+            </ul>
+          </div>
       </div>
 
       </main>
