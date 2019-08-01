@@ -1,0 +1,37 @@
+header {
+  display: none;
+}
+
+#print_inst {
+  display: none;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.container {
+  width: 95%;
+}
+
+table {
+  display: inline-block;
+  float: left;
+  width: 31%;
+  border: none;
+}
+
+table, tr, td, th {
+  font-size: .75rem;
+  height: 1rem;
+  margin: 1px;
+  padding: 1px;
+}
+
+#test {
+  display: none;
+}
+
+footer {
+  display: none;
+}
