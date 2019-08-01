@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/pack_list.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
     <link rel="icon" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/1e0f95045e.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/pack_list.js"></script>
     <title>Looping Lappers - Packing List</title>
   </head>
 
@@ -34,7 +36,14 @@
       <h1>Packing List</h1>
 
       <div class="container">
-        <p>This packing list is printer-friendly!  Simply select print from your browser menu to get a hard copy.</p>
+
+        <div id="print_inst">
+          <p>Click the button to print the current page.</p>
+          <div id="p_button">
+            <button class="button" onclick="printFunction()">Print this page</button>
+          </div>
+        </div>
+
         <table>
           <tr>
             <th>Packed</th>
@@ -44,59 +53,59 @@
             <td class="section" colspan="2">Race Equipment</td>
           </tr>
           <tr>
-            <td class="col1"><i class="far fa-square"></i></td>
+            <td class="col1"><i id="test" class="far fa-square"></i></td>
             <td class="col2">Helmet</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Gloves</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Racing Clothes</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Sun Screen</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Bug Spray</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Camera</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Bike Pump</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Glasses - Sun</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Glasses - Night</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Headlamp - spare</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Rear Light</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Electrical Tape</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Duct Tape</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Nylon Zip Ties</td>
           </tr>
         </table>
@@ -112,59 +121,59 @@
             <td class="section" colspan="2">Camping</td>
           </tr>
           <tr>
-            <td class="col1"><i class="far fa-square"></i></td>
+            <td class="col1"><i id="test" class="far fa-square"></i></td>
             <td class="col2">Flash light</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Tent</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Matress</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Stove</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Folding Tables</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Washing Bins</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Pots and pans</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Wash Cloth</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Towels</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Chairs</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Cooking Spoon</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Cuttlery</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Dishes</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Water Holder</td>
           </tr>
         </table>
@@ -180,59 +189,59 @@
             <td class="section" colspan="2">Food</td>
           </tr>
           <tr>
-            <td class="col1"><i class="far fa-square"></i></td>
+            <td class="col1"><i id="test" class="far fa-square"></i></td>
             <td class="col2">Water Bottles</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Pasta - Friday</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Pasta Sauce - Friday</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Instant Coffee</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Cliff Bars</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Sparkling Water</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Muffins</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Cereal</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Snacks</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Ice</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Bagette</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Fruit</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Hot Dogs</td>
           </tr>
           <tr>
-            <td><i class="far fa-square"></i></td>
+            <td><i id="test" class="far fa-square"></i></td>
             <td>Hod Dog Buns</td>
           </tr>
         </table>
