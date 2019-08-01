@@ -11,6 +11,10 @@ table.center{
   text-align: center;
 }
 
+th{
+  width: 33%;
+}
+
 .inner_container{
   width: 95%;
   margin: auto;
